@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Rodd Dastmalchi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="background">
+        <img src="trees.jpg" id="top">
+    </div>
+    <div id="top_page"></div>
+    <div class="navbar">
+        <li data-aos="fade-down"><a href="#top_page">Top</a></li>
+        <li data-aos="fade-down"><a href="#education_ph">Education</a></li>
+        <li data-aos="fade-down"><a href="#skills_ph">Skills</a></li>
+        <li data-aos="fade-down"><a href="#exp_ph">Experience</a></li>
+        <li data-aos="fade-down"><a href="#contact_ph">Contact</a></li>
+    </div>
+    <div class="sticky">
+        <div class="empty-top"></div>
+        <div class="name" data-aos="zoom-in">Rodd Dastmalchi</div>
+        <div id="down">
+            <div id="arrow" data-aos="fade-down"><a href= "#education_ph" style="text-decoration: none"><span id="scroll">&#8675</span></a></div>
+        </div>
+        <div class="empty"></div>
+    </div>
+
+    <div class="sticky">
+        <div id="education_ph"></div>
+        <div class="education-text" data-aos="fade-up">
+            UC Irvine Class of 2022
+            <br> Computer Science
+        </div>
+
+        <div class="education" data-aos="flip-up">
+            <img src="1920px-University_of_California,_Irvine_seal.svg.png" height="500px" width="500px">
+        </div>
+    </div>
+    <div class="sticky">
+        <div id="skills_ph"></div>
+        <div class="skills-text" data-aos="fade-up">
+            Proficient In Several Programming Languages
+        </div>
+
+        <div class="skills-wrapper">
+            <div class="skills">
+                <img src="js.png" data-aos="fade-left">
+                <img src="html.png" data-aos="fade-left">
+                <img src="css.png" data-aos="fade-left">
+                <img src="python.png" data-aos="fade-right">
+                <img src="assembly.png" data-aos="fade-right">
+                <img src="matlab.png" data-aos="fade-right">
+            </div>
+            <div class="skill-footer" data-aos="fade-up">JavaScript, HTML, CSS, Python, MIPS Assembly and MATLAB</div>
+        </div>
+    </div>
+    <div class="sticky">
+        <div id="exp_ph"></div>
+        <div class="experience" data-aos="zoom-in-up">Experience</div>
+        <div id="exp-img">
+            <img src="arkone.svg" data-aos="fade-up"></div>
+        <div class="jobs" data-aos="fade-up">Intern Software Engineer - Ark.One Inc. - Summer 2019</div>
+        <div id="exp-img" data-aos="zoom-in-up">
+            <img src="polyup.png"></div>
+        <div class="jobs" data-aos="fade-up">Intern Software Engineer - Polyup Inc. - Summer 2017-Winter 2017</div>
+    </div>
+
+    <div class="sticky">
+        <div id="contact_ph"></div>
+        <div class="contact" data-aos="zoom-out">Contact</div>
+
+        <div class="email">
+            <div id="intro" data-aos="zoom-out-up">Feel free to contact me by phone or by email</div>
+            <li data-aos="zoom-out-down">Email: <a href="mailto:rodddastmalchi@gmail.com">rodddastmalchi@gmail.com</a></li>
+            <li data-aos="zoom-out">Phone: <a href="tel:925-997-3704">(925) 997-3704</a></li>
+            <div id="sm">
+                <a href="https://www.linkedin.com/in/rodd-dastmalchi-563213143/" class="fa fa-linkedin"></a>
+                <a href="https://www.facebook.com/profile.php?id=100009311846838" class="fa fa-facebook"></a>
+                <a href="https://github.com/rodddastmalchi" class="fa fa-github"></a>
+            </div>
+            <div class="empty"></div>
+            <div id="resume"><a href="Resume.pdf" target="_blank">Click for Resume</a></div>
+
+        </div>
+
+    </div>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1200,
+            delay: 120,
+            disable: 'mobile'
+        });
+    </script>
+</body>
+    
+
+</html>
